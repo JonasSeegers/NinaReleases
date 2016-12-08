@@ -13,7 +13,7 @@ Das .zip-File muss auf dem Computer entpackt werden und enthält mindestens die 
 ### Schritt 1: Kommandozeile öffnen
 Das Programm muss über die Kommandozeile geöffnet werden. Auf einem Windows-Computer drückt man dafür zunächst gleichzeitig die Windowstaste+R.
 Dann erscheint ein Feld "Ausführen...". In das Feld gibt man `cmd` ein und drückt die Entertaste. Es sollte sich die Eingebaufforderung öffnen.
-Die sieht einfach aus, wie DOS früher.
+Die sieht einfach aus wie DOS früher.
 
 ### Schritt 2: In das richtige Verzeichnis wechseln
 Als nächstes muss man in das richtige Verzeichnis wechseln. Dafür gibt es den `cd` Befehl. Das richtige Verzeichnis ist das Verzeichnis, in dem
