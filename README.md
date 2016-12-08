@@ -17,7 +17,7 @@ Die sieht einfach aus wie DOS früher.
 
 ### Schritt 2: In das richtige Verzeichnis wechseln
 Als nächstes muss man in das richtige Verzeichnis wechseln. Dafür gibt es den `cd` Befehl. Das richtige Verzeichnis ist das Verzeichnis, in dem
-die `Nina.jar` und die `kino.properties` liegen. Liegen diese Dateien zum Beispiel unter `C:\\Downloads\KinoProgramm`, muss in die Kommandozeile der Befehl `cd C:\\Downloads\KinoProgramm` eingeben werden.
+die `Nina.jar` und die `kinos.properties` liegen. Liegen diese Dateien zum Beispiel unter `C:\\Downloads\KinoProgramm`, muss in die Kommandozeile der Befehl `cd C:\\Downloads\KinoProgramm` eingeben werden.
 
 ### Schritt 3: Programm starten
 Jetzt muss das Programm nur noch gestartet werden. Dazu folgenden Befehl eingeben und ausführen:
