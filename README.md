@@ -26,7 +26,16 @@ Verzeichnis legst, wie die `Nina.jar` und die `kinos.properties`.
 ### Wenn du alles richtig gemacht hast, sieht dein Ordner jetzt ungefähr so aus:
 ![Screenshot](screen.png)
 
-## Ausführen des Programms
+## Ausführen des Programms Variante 1
+Ich hoffe, dass diese Variante funktioniert, weil sie deutlich einfacher ist.
+Wenn du alles richtig gemacht hast, müsste sich nach einem Doppelklick auf
+die Nina.jar ein Browserfenster von Google Chrome öffnen. Wenn du jetzt kurz
+wartest, sollte sich das nach wenigen Minuten wieder schließen. Wenn das 
+passiert ist, kannst du direkt zu Schritt 4 der zweiten Variante gehen.
+Ansonsten müsstest du noch mal probieren das Programm über die 
+Kommandozeile auszuführen.
+
+## Ausführen des Programms Variante 2
 ### Schritt 1: Kommandozeile öffnen
 Das Programm muss über die Kommandozeile geöffnet werden. Auf einem Windows-Computer drückt man dafür zunächst gleichzeitig die Windowstaste+R.
 Dann erscheint ein Feld "Ausführen...". In das Feld gibt man `cmd` ein und drückt die Entertaste. Es sollte sich die Eingebaufforderung öffnen.
