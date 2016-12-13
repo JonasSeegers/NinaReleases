@@ -7,7 +7,24 @@ Die kann hier runtergeladen werden: [Download](https://www.java.com/de/).
 
 ### Schritt 2: Programm runterladen
 Um das Programm runterzuladen oben auf den grünen Button "Clone or Download" und dann auf "Download ZIP" klicken.
-Das .zip-File muss auf dem Computer entpackt werden und enthält mindestens die Dateien `Nina.jar` und `kinos.properties`.
+Das .zip-File muss auf dem Computer entpackt werden und enthält mindestens die Dateien `Nina.jar` und `kinos.properties`, sowie einen Ordner `1.12.4_0`.
+
+### Schritt 3: Chrome runterladen und aktualisieren
+Der "Roboter" benutzt Chrome um die Seite aufzurufen und "durchzulesen". Wenn du das also noch nicht getan hast, 
+solltest du jetzt die neuste Version herunterladen: [Download](https://www.google.de/chrome/browser/desktop/).
+Falls du irgendeine Version von Chrome bereits installiert hast, solltest du [hier](chrome://help/) prüfen, ob du
+ein Update runterladen kannst. Es ist alles gut, wenn da Version 54.irgendwas.irgendwas.irgendwas steht. Ansonsten
+wird da irgendwo ein Button "Neu starten" oder "Updates installieren" oder so ähnlich sein.
+
+### Schritt 4: ChromeDriver runterladen und in das Verzeichnis legen
+Der ChromeDriver kann die Befehle von meinem Programm in Befehle, die Chrome versteht übersetzen. Du kannst den
+[hier](https://sites.google.com/a/chromium.org/chromedriver/downloads) runterladen. Einfach auf den Link neben
+"Latest Release" klicken und dann auf `chromedriver_win32.zip`. Die Datei musst du bei dir entpacken. Da ist eine
+`chromedriver.exe` drin, mit der du erstmal nichts machen kannst. Wichtig ist nur, dass du die in das gleiche
+Verzeichnis legst, wie die `Nina.jar` und die `kinos.properties`. 
+
+### Wenn du alles richtig gemacht hast, sieht dein Ordner jetzt ungefähr so aus:
+![Screenshot](screen.png)
 
 ## Ausführen des Programms
 ### Schritt 1: Kommandozeile öffnen
@@ -24,7 +41,10 @@ Jetzt muss das Programm nur noch gestartet werden. Dazu folgenden Befehl eingebe
 ```
 java -jar Nina.jar
 ```
-Jetzt kommen ganz viele Warnungen. Die kommen von der Webseite selber. Die haben nichts mit meinem Program zu tun. Einfach ignorieren. Das Programm läuft jetzt automatisch durch.
+Jetzt startet ein neues Fenster von Google Chrome mit zwei Tabs. Im aktiven Tab müsste stehen, dass AdBlock erfolgreich instlaliert wurde. 
+Das habe ich nur eingebaut, weil der manchmal nicht damit klargekommen ist, wenn großflächige Werbung über der Webseite lag.
+Wenn du auf den anderen Tab wechselst, siehst du die kino.de Webseite und wie der Roboter nach und nach die Tage anklickt. Wichtig ist, dass
+du nicht händisch eingreifst, sonst kann es zu Fehlern kommen.
 
 ### Schritt 4: Ergebnisse
 Das Programm legt die Ergebnisse in einer .txt Datei in genau dem Ordner ab, in dem es gestartet wurde. Die Zahl vor dem .txt sind die vergangenen Millisekunden seit dem 1.1.1970. Das ist einfach nur, damit die Dateien einander nicht überschreiben. Wenn man die nicht mehr braucht, können die .txt-Dateien aber auch ohne Weiteres gelöscht werden.
