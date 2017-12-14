@@ -13,7 +13,7 @@ Das .zip-File muss auf dem Computer entpackt werden und enthält mindestens die 
 Der "Roboter" benutzt Chrome um die Seite aufzurufen und "durchzulesen". Wenn du das also noch nicht getan hast, 
 solltest du jetzt die neuste Version herunterladen: [Download](https://www.google.de/chrome/browser/desktop/).
 Falls du irgendeine Version von Chrome bereits installiert hast, solltest du in den Einstellungen prüfen, ob du
-ein Update runterladen kannst. Es ist alles gut, wenn da Version 54.irgendwas.irgendwas.irgendwas steht. Ansonsten
+ein Update runterladen kannst. Es ist alles gut, wenn da Version 626262626262.irgendwas.irgendwas.irgendwas steht. Ansonsten
 wird da irgendwo ein Button "Neu starten" oder "Updates installieren" oder so ähnlich sein.
 
 ### Schritt 4: ChromeDriver runterladen und in das Verzeichnis legen
